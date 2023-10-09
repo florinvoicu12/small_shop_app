@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_myapp/constants.dart';
+import 'package:flutter_myapp/new_home_screen.dart';
 import 'package:flutter_myapp/screens/home/home_screen.dart';
 
 void main() {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
           fontFamily: "Gordita",
           textTheme:
               const TextTheme(bodyMedium: TextStyle(color: Colors.black54))),
-      home: const HomeScreen(),
+      home: const NewHomeScreen(),
     );
   }
 }
